@@ -1,13 +1,11 @@
-import Alert from "./components/Alert";
 import Button from "./components/Button";
 
 function App() {
   return (
     <div>
-      <Alert>
-        Hello <span>Pikachu</span>
-      </Alert>
-      <Button></Button>
+      <Button color="primary" onClick={() => console.log("Clicked")}>
+        Bye!
+      </Button>
     </div>
   );
 }
