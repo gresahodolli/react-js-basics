@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
- function Person({person}) {
+ function Person({person,key}) {
     return (
       <div>
-        <h2>I am {person.name}, I am {person.profession}. </h2>
+        {key}I am {person.name}, I am {person.profession}. 
         </div>
     )
 
