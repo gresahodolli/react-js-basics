@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import './App.css';
-import Form from './components/Form'
-import LifecycleA from './components/LifecycleA'; 
+//import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA></LifecycleA>
+      <Table />
     </div>
   );
 }
