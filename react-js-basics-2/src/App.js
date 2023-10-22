@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
-import PureComp from './components/PureComp';
-import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+
 
 function App() {
   return (
     <div className='App'>
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+      <FocusInput></FocusInput>
     </div>
   );
 }
