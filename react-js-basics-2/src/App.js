@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css'
 import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className='App'>
         <ClickCounter></ClickCounter>
+        <HoverCounter></HoverCounter>
       </div>
     );
   }
