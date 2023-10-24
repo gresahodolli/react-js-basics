@@ -16,10 +16,10 @@ export class ClickCounterTwo extends Component {
   }
 
   render() {
-    const { count } = this.state; // Corrected placement
+    const { count, incrementCount } = this.props; // Corrected placement
     return (
       <div>
-        <button onClick={this.incrementCount}>
+        <button onClick={incrementCount}>
           Clicked {count} times
         </button>
       </div>
