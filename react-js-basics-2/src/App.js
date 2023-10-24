@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ClickCounter></ClickCounter>
-        <HoverCounter></HoverCounter>
+        <ClickCounter ></ClickCounter>
+        <HoverCounter ></HoverCounter>
       </div>
     );
   }

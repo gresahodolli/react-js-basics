@@ -3,7 +3,7 @@ import withCounter from './withCounter';
 
 class HoverCounter extends Component {
   render() {
-    const { count, incrementCount } = this.props; // Destructure the props
+    const { count, incrementCount } = this.props; 
     return (
       <h2 onMouseOver={incrementCount}>
         {this.props.name} Hovered {count} times
@@ -12,4 +12,4 @@ class HoverCounter extends Component {
   }
 }
 
-export default withCounter(HoverCounter);
+export default withCounter(HoverCounter, 10);
