@@ -22,7 +22,7 @@ class PostForm extends Component {
         axios 
             .post('https://jsonplaceholder.typicode.com/posts', this.state)
             .then(response=>{
-                console.kog(response)
+                console.log(response)
             })
             .catch(error=> {
                 console.log(error)
