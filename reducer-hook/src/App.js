@@ -29,6 +29,7 @@ function App() {
         <ComponentA />
         <ComponentB />
         <ComponentC />
+      </div>
     </CountContext.Provider>
   );
 }
